@@ -1,0 +1,9 @@
+# Python dependencies for GameHub-by-Axtech
+Pillow
+# The following are standard Python libraries, included with Python:
+# tkinter (GUI, comes with most Python installations; on Linux, may require: sudo apt-get install python3-tk)
+# random (standard library)
+# time (standard library)
+# os (standard library)
+# typing (standard library)
+# turtle (standard library, but may require: sudo apt-get install python3-tk on Linux) 
