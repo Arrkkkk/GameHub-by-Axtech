@@ -29,7 +29,7 @@ l2.place(x=560, y=20)
 l3.place(x=370, y=230)
 
 # Default image
-img_p = Image.open("default.png")
+img_p = Image.open("assets/images/default.png")
 img_p = img_p.resize((300, 300))
 
 # Flipping image from left to right
@@ -40,7 +40,7 @@ img_p = ImageTk.PhotoImage(img_p)
 img_c = ImageTk.PhotoImage(img_c)
 
 # Rock image
-rock_p = Image.open('rock.jpeg')
+rock_p = Image.open('assets/images/rock.jpeg')
 rock_p = rock_p.resize((300, 300))
 
 # Flipping image from left to right
@@ -51,7 +51,7 @@ rock_p = ImageTk.PhotoImage(rock_p)
 rock_c = ImageTk.PhotoImage(rock_c)
 
 # Paper image
-paper_p = Image.open('paper.jpeg')
+paper_p = Image.open('assets/images/paper.jpeg')
 paper_p = paper_p.resize((300, 300))
 
 # Flipping image from left to right
@@ -62,7 +62,7 @@ paper_p = ImageTk.PhotoImage(paper_p)
 paper_c = ImageTk.PhotoImage(paper_c)
 
 # Scissor image
-scissor_p = Image.open('scissor.jpeg')
+scissor_p = Image.open('assets/images/scissor.jpeg')
 scissor_p = scissor_p.resize((300, 300))
 
 # Flipping image from left to right
@@ -73,7 +73,7 @@ scissor_p = ImageTk.PhotoImage(scissor_p)
 scissor_c = ImageTk.PhotoImage(scissor_c)
 
 # Selection image
-img_s = Image.open("Selection.jpg")
+img_s = Image.open("assets/images/Selection.jpg")
 img_s = img_s.resize((300, 130))
 img_s = ImageTk.PhotoImage(img_s)
 

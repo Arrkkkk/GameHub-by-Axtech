@@ -856,7 +856,7 @@ def Rp():
     l3.place(x=370, y=230)
 
     # Default image
-    img_p = Image.open("default.png")
+    img_p = Image.open("assets/images/default.png")
     img_p = img_p.resize((300, 300))
 
     # Flipping image from left to right
@@ -867,7 +867,7 @@ def Rp():
     img_c = ImageTk.PhotoImage(img_c)
 
     # Rock image
-    rock_p = Image.open('rock.jpeg')
+    rock_p = Image.open('assets/images/rock.jpeg')
     rock_p = rock_p.resize((300, 300))
 
     # Flipping image from left to right
@@ -878,7 +878,7 @@ def Rp():
     rock_c = ImageTk.PhotoImage(rock_c)
 
     # Paper image
-    paper_p = Image.open('paper.jpeg')
+    paper_p = Image.open('assets/images/paper.jpeg')
     paper_p = paper_p.resize((300, 300))
 
     # Flipping image from left to right
@@ -889,7 +889,7 @@ def Rp():
     paper_c = ImageTk.PhotoImage(paper_c)
 
     # Scissor image
-    scissor_p = Image.open('scissor.jpeg')
+    scissor_p = Image.open('assets/images/scissor.jpeg')
     scissor_p = scissor_p.resize((300, 300))
 
     # Flipping image from left to right
@@ -900,7 +900,7 @@ def Rp():
     scissor_c = ImageTk.PhotoImage(scissor_c)
 
     # Selection image
-    img_s = Image.open("Selection.jpg")
+    img_s = Image.open("assets/images/Selection.jpg")
     img_s = img_s.resize((300, 130))
     img_s = ImageTk.PhotoImage(img_s)
 
@@ -1022,7 +1022,7 @@ rt.resizable(0, 0)
 rt.wm_attributes("-topmost", 1)
 canvas = Canvas(rt, width=600, height=600, bd=0, highlightthickness=0, highlightbackground="Red", bg="Black")
 canvas.pack(padx=10, pady=10)
-img_p = Image.open("Logo.jpg")
+img_p = Image.open("assets/images/Logo.jpg")
 img_p = img_p.resize((560, 580))
 img_p = ImageTk.PhotoImage(img_p)
 canvas.create_image(10, 10, anchor=NW, image=img_p)
