@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+
+# Tkinter specific files (if any are generated)
+# You might need to add specific patterns if Tkinter creates build artifacts
+# For example, if it creates a dist/ folder or specific log files.
+
+# Operating System files
+.DS_Store
+.localized
+Thumbs.db
+
+# IDE specific files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+*.iml
+
+# Log files
+*.log
+*.log.*
+
+# Temporary files
+*~
+*.bak
+*.swp
+*.swo
+
+# Image files (if generated or temporary)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Specific files from your project that might be generated or temporary
+# If your games generate any specific output files, you can add them here.
+# For example, if "default.png" or "Logo.jpg" are generated, not source.
+# default.png
+# Logo.jpg
