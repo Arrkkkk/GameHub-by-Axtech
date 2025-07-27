@@ -66,8 +66,6 @@ Contributions are welcome! If you have ideas for new games, improvements, or bug
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a pull request
 
-## Screenshots
-Add screenshots of the games here to showcase the UI and features!
 
 ## License
 This project is for educational purposes. Feel free to use, modify, and share! 
