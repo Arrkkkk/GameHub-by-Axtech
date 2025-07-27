@@ -90,7 +90,6 @@ Use the buttons to select and launch different games.
 
 ## 🧑‍💻 Project Structure
 
-  * `MAINFRAME.py`: The primary entry point for the application, providing a "Caller GUI" with buttons to launch `MAIN.py` and `Game248.py` in separate windows.
   * `MAIN.py`: Acts as a central game console, containing functions to launch the Bounce Ball game (`BB()`) and Rock Paper Scissors (`Rp()`). It also manages overall score display.
   * `Game248.py`: Implements the core logic and GUI for the 2048 game.
   * `rps.py`: Contains the logic and GUI for the Rock Paper Scissors game.
